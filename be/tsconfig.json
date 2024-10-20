@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6"
+        ],
+        "target": "ES2018",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+        "rootDir": ".",
+        "paths": {
+            "*": [
+                "./src/*",
+                "./test/*"
+            ]
+        },
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "test/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
